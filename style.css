@@ -1,0 +1,63 @@
+/*100 for Thin
+200 for Extra Light (Ultra Light)
+300 for Light
+400 for Normal (Regular)
+500 for Medium
+600 for Semi Bold (Demi Bold)
+700 for Bold
+800 for Extra Bold (Ultra Bold)
+900 for Black (Heavy)
+ */
+
+@font-face{ /*standard*/
+    font-family: "Pixel Font";
+    src : url('../assets/fonts/PixelCode.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{ /*light*/
+    font-family: "Pixel Font";
+    src : url('../assets/fonts/PixelCode-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{ /*thin actually looks kinda clean*/
+    font-family: "Pixel Font";
+    src : url('../assets/fonts/PixelCode-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face{ /*standard*/
+    font-family: "Pixel Font";
+    src : url('../assets/fonts/PixelCode-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face{ /*light*/
+    font-family: "Pixel Font";
+    src : url('../assets/fonts/PixelCode-Light-Italic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face{ /*thin actually looks kinda clean*/
+    font-family: "Pixel Font";
+    src : url('../assets/fonts/PixelCode-Thin-Italic.woff2') format('woff2');
+    font-weight: 100;
+    font-style: italic;
+}
+
+body{
+    font-family: "Pixel Font", sans-serif;
+    font-size: 15px;
+}
+
+.thin-text{
+    font-family: "Pixel Font", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
