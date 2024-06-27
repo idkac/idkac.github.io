@@ -53,11 +53,37 @@
 
 body{
     font-family: "Pixel Font", sans-serif;
-    font-size: 15px;
+    background-color: #252730;
+    font-size: 18px;
+    color: white;
+    margin-left: 20px;
 }
 
-.thin-text{
+.paragraph{
     font-family: "Pixel Font", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
+    font-weight: 100;
+    color: white;
 }
+
+.headers{
+    color: #0041C2;
+    margin-top: 50px;
+}
+
+.links{
+    color: #B5DAFE;
+}
+
+.spielLinks{
+    color: white;
+}
+
+.homeLink{
+    font-size: 25px;
+    color: white;
+}
+/* .thin-text{ */
+/*     font-family: "pixel font", sans-serif; */
+/*     font-weight: 300; */
+/*     font-size: 15px; */
+/* } */
