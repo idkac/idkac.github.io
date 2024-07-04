@@ -60,9 +60,11 @@ body{
 }
 
 .paragraph{
+    overflow: hidden;
+    width: 100%;
     font-family: "Pixel Font", sans-serif;
     font-weight: 100;
-    color: white;
+    color: ;
 }
 
 .headers{
