@@ -97,6 +97,24 @@ body{
     margin-left: 3px;
 }
 
+/*scroicked from my boy kjason stang who scroicked from https://espadrine.github.io/blog/posts/markdown-quote-styling.html*/
+blockquote {
+    margin: 0;
+    padding-left: 1.4rem;
+    position: relative;
+    /*font-style: italic;*/
+}
+
+blockquote::before { /* this actually adds the rectangle on the left */
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: #dadada;
+    border-radius: 2px / 4px;
+}
+
 /* .thin-text{ */
 /*     font-family: "pixel font", sans-serif; */
 /*     font-weight: 300; */
