@@ -54,15 +54,22 @@
 body{
     font-family: "Pixel Font", sans-serif;
     background-color: #252730;
-    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    max-width: 60em;
+    line-height: 1.6;
+
+    padding: 0 10px;
+
+    font-size: 20px;
     color: white;
-    margin-left: 20px;
+    text-align: left;
 }
 
+
 .paragraph{
-    overflow: hidden;
-    width: 100%;
-    font-family: "Pixel Font", sans-serif;
+    margin-top: 0em;
     font-weight: 100;
 }
 
@@ -75,19 +82,35 @@ body{
     color: #B5DAFE;
 }
 
+.links:hover{
+    color: #6495ED;
+}
+
 .spielLinks{
     color: white;
+}
+
+.spielLinks:hover {
+    color: #ccc
 }
 
 .homeLink{
     font-size: 25px;
     color: white;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.homeLink:hover{
+    color: #ccc
 }
 
 .footnote{
-    margin-top: 10px;
+    text-align: center;
     font-size: 11px;
     color: white;
+    font-weight: 70;
+    font-style: italic;
 }
 
 .footnoteImage{
@@ -102,7 +125,9 @@ blockquote {
     margin: 0;
     padding-left: 1.4rem;
     position: relative;
-    /*font-style: italic;*/
+    font-style: italic;
+    font-weight: 100;
+    font-size: 17px;
 }
 
 blockquote::before { /* this actually adds the rectangle on the left */
@@ -113,6 +138,13 @@ blockquote::before { /* this actually adds the rectangle on the left */
     height: 100%;
     background: #dadada;
     border-radius: 2px / 4px;
+}
+
+ol {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 2em;
 }
 
 /* .thin-text{ */
