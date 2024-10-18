@@ -2,3 +2,8 @@ node_modules
 dist
 dist-ssr
 *.local
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/settings.json
+tempCodeRunnerFile
+tempCodeRunnerFile.cpp
