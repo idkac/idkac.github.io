@@ -1,1 +1,1 @@
-Personal website, read blogs at your own discretion.
+Personal website, read blogs at your own discretion..
